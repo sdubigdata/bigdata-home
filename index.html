@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+<style type="text/css">
+  body{
+  	margin:0px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    font-size: 1em;
+  }
+  div#container{
+	background:none;
+	background-repeat:repeat-y;
+	background-position:center;
+	margin:auto;
+	margin-top:0px;
+	width:1000px;
+  }
+  #nav{
+  	margin-top:10px;
+	font-weight:bold;
+  }
+  .nav_item{
+	float:left;
+    width:180px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+	background:url(imgs/nav_bg.png) repeat-x;
+	color:#FFF;
+  }
+  div.nav_item_current{
+  	float:left;
+    width:180px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+    background:url(imgs/nav_bg_current.png) repeat-x;
+	color:#036;
+	cursor:pointer;
+	
+  }
+  .nav_item:hover{
+	color:#FFC;   
+	background:url(imgs/nav_bg_hover.png) repeat-x;
+  }
+  div#banner{
+    background-image:url(imgs/banner.png);
+    height:150px;
+  }  
+  #main{
+    width:1000px;
+	min-height:500px;	
+	background-color: #F3F3F3;
+  }
+  #footer{
+  	font-size:.8em;
+	background:url(imgs/footer_bg.png);
+	height:50px;
+  }
+</style>
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <div id="banner"></div>
+      <div id="nav">
+        <div class="nav_item" style="width:50px;cursor:default;">
+          <img src="imgs/nav_left.png">
+        </div>
+        <div class="nav_item_current"><a>学科组首页</a></div>
+        <div class="nav_item"><a>学科组动态</a></div>
+        <div class="nav_item"><a>学科组人员</a></div>
+        <div class="nav_item"><a>学科组成果</a></div>
+        <div class="nav_item"><a>学科组设施</a></div>       
+        <div class="nav_item" style="width:50px;cursor:default;">
+          <img src="imgs/nav_right.png">
+        </div>
+      </div>
+    </div>
+    <div style="clear:both"></div>
+    <div id="main">
+      <iframe frameborder="no" scrolling="no" src="welcome.html" style="width: 100%; border: 0px none; height: 800px;" name="main_frame"></iframe>
+    </div>
+    <div id="footer">
+    </div>
+		
+  </div>
+</body>
+</html>

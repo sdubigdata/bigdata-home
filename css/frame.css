@@ -1,0 +1,15 @@
+body{
+  margin:5px 20px 0px 20px;
+}
+hr{
+
+}
+div.content{
+  line-height: 200%;
+  padding:0 2em;
+  height:auto;
+}
+p{
+  text-indent:2em;
+  margin:.7em 0px;
+}
