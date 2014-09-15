@@ -2,15 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
+<title>山东大学大数据管理与分析学科组</title>
 
 <style type="text/css">
-  body{
-  	margin:0px;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    line-height: 30px;
-    font-size: 1em;
+  html{
+    overflow-y:scroll;    
   }
+  body{
+    margin:0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    font-size: 1em;   
+  } 
   div#container{
 	background:none;
 	background-repeat:repeat-y;
@@ -60,33 +63,95 @@
   #footer{
   	font-size:.8em;
 	background:url(imgs/footer_bg.png);
-	height:50px;
+	height:80px;
+	text-align:center;	
+	padding:10px 0;
+	color:#FFF;
+	font-size:.8em;
+  }
+  #footer a{
+    text-decoration:none;
+	color:#FFF;
+	margin:0 10px;
+	font-size:1.2em;
   }
 </style>
+<script type="text/javascript">
+  window.onload = function(){
+   attachEvents();
+  }
+  function attachEvents(){
+    var nav = document.getElementById("nav");
+    var navItems = getByClass(nav,"nav_item");
+	for(var i in navItems){	  
+	  if(document.attachEvent){ 
+        //navItems[i].attachEvent("onclick",function(){navigate(this)});
+		navItems[i].onclick=function(){navigate(this)};
+	  }
+	  else if(document.addEventListener){ 
+		navItems[i].addEventListener("click",function(){navigate(this)}); 
+	  }
+	}
+  }
+
+  function getByClass(obj,cla){
+	var arr = [];
+	var all = obj.getElementsByTagName('*');
+	for(var i = 0, len = all.length; i < len; i++){
+	  if(all[i].className.match(cla) != null) arr.push(all[i]);
+	}
+	return arr;
+  }
+  
+  function navigate(obj){    
+    document.getElementById("mainFrame").setAttribute("src",obj.getAttribute("name")+".html");
+	var old = getByClass(obj.parentNode,"nav_item_current");
+	if(old.length > 0){
+	  old[0].setAttribute("class","nav_item");
+	  obj.setAttribute("class","nav_item_current");	  
+	  //for IE 7
+	  old[0].setAttribute("className","nav_item");	  
+	  obj.setAttribute("className","nav_item_current");
+	}
+  }
+</script>
 </head>
 <body>
   <div id="container">
     <div id="header">
       <div id="banner"></div>
       <div id="nav">
-        <div class="nav_item" style="width:50px;cursor:default;">
+        <div style="width:50px; height:40px;cursor:default; float:left;">
           <img src="imgs/nav_left.png">
         </div>
-        <div class="nav_item_current"><a>学科组首页</a></div>
-        <div class="nav_item"><a>学科组动态</a></div>
-        <div class="nav_item"><a>学科组人员</a></div>
-        <div class="nav_item"><a>学科组成果</a></div>
-        <div class="nav_item"><a>学科组设施</a></div>       
-        <div class="nav_item" style="width:50px;cursor:default;">
+        <div class="nav_item_current" name="welcome">学科组首页</div>
+        <div class="nav_item" name="news">学科组动态</div>
+        <div class="nav_item" name="staff">学科组成员</div>
+        <div class="nav_item" name="achievement">学科组成果</div>
+        <div class="nav_item" name="facility">学科组设施</div>
+        <div style="width:50px;height:40px;cursor:default; float:left;">
           <img src="imgs/nav_right.png">
         </div>
       </div>
-    </div>
-    <div style="clear:both"></div>
+      <div style="clear:both"></div>
+    </div>   
     <div id="main">
-      <iframe frameborder="no" scrolling="no" src="welcome.html" style="width: 100%; border: 0px none; height: 800px;" name="main_frame"></iframe>
+      <iframe frameborder="no" scrolling="no" src="welcome.html" style="width: 100%; border: 0px none; " name="main_frame" id="mainFrame"></iframe>
     </div>
     <div id="footer">
+      <a href="http://www.sdu.edu.cn" target="_blank">山东大学</a>|<a href="http://www.cs.sdu.edu.cn" target="_blank">山东大学计算机学院</a>|<a href="http://www.gl-data.com" target="_blank">观澜数据</a>
+      <br/>
+      All Rights Reserved &nbsp;&copy;&nbsp; 山东大学大数据管理与分析学科组
+      <br/>
+    <!-- GoStats JavaScript Based Code -->
+<script type="text/javascript" src="http://gostats.cn/js/counter.js"></script>
+<script type="text/javascript">_gos='monster.gostats.cn';_goa=475006;
+_got=6;_goi=3;_gol='Counter';_GoStatsRun();</script>
+<noscript><a target="_blank" title="Counter" 
+href="http://gostats.cn"><img alt="Counter" 
+src="http://monster.gostats.cn/bin/count/a_475006/t_6/i_3/counter.png" 
+style="border-width:0" /></a></noscript>
+<!-- End GoStats JavaScript Based Code -->
     </div>
 		
   </div>
