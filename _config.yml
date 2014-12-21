@@ -1,0 +1,13 @@
+# Site settings
+title: 山东大学大数据管理与分析学科组
+description: 山东大学,山东大学大数据管理与分析学科组
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://bigdata.sdu.edu.cn" # the base hostname & protocol for your site
+github_username:  sdubigdata
+
+paginate: 10
+paginate_path: "news/page:num/"
+
+# Build settings
+source: _source
+markdown: kramdown

@@ -1,0 +1,31 @@
+<header class="site-header">
+    <div id="banner">
+        <img src="{{ site.url }}/imgs/banner.png" width="1000px" height="150px">
+    </div>
+    <nav class="clearfix">
+        <div style="width:50px; height:40px; float:left">
+          <img src="{{site.url}}/imgs/nav_left.png">
+        </div>
+        <ul class="top-nav ">
+              {% assign lastIndex = -1%}
+          {% assign pages = site.pages | sort:"index"  %}
+          {% for p in  pages  %}
+            {% if p.title != null%}
+              {% if p.index == lastIndex %}
+              {%continue%}
+              {% endif%}
+              {% assign lastIndex = p.index%}
+              <li class=" 
+              {% if  page.title == p.title%}
+              nav-item-selected
+              {% endif %}
+              nav-item "> <a href="{{p.link}}">{{p.title}}</a> </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <div style="width:50px; height:40px;float:left">
+          <img src="{{site.url}}/imgs/nav_right.png">
+        </div>
+  </nav>
+
+</header>
