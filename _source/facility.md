@@ -6,6 +6,8 @@ link: /facility/
 index: 5
 ---
 
+##学科组设施
+
  <div style="float:right;padding-left:20px;margin-top:10px;"><a href="{{site.url}}/imgs/facility_brev.jpg" target="_blank"><img src="{{site.url}}/imgs/facility_brev.jpg" style="width:300px;"/></a></div>
       
  学科组拥有丰富的资源设施，成员可以利用这些基础设施进行学术研究或系统研究实验。
