@@ -8,9 +8,12 @@ index: 4
 
 ##成果
 
-###2014年
+###2015年
 
 * Ziqiang Yu, Xiaohui Yu, Yang Liu, Wenzhu Li, Jian Pei.  Mining Frequent Co-occurrence Patterns across Multiple Data Streams. To appear in 18th International Conference on Extending Database Technology(EDBT 2015), March 23-27, 2015.
+
+###2014年
+
 * Ziqiang Yu, Xiaohui Yu, Yang Liu, Ken Q. Pu. Scalable Distributed Processing of K Nearest Neighbor Queries over Moving Objects. Accepted for publication in IEEE Transactions on Knowledge and Data Engineering (TKDE), 2014.
 * Chong Yang, Xiaohui Yu, Yang Liu. Continuous KNN Join Processing for Real-time Recommendation. To appear in IEEE International Conference on Data Mining (ICDM), December 14-17, 2014. 
 * YanPing Nie, Yang Liu, Xiaohui Yu. Weighted aspect-based collaborative filtering. SIGIR 2014: 1071-1074
