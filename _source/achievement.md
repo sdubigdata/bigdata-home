@@ -11,6 +11,9 @@ index: 4
 ###2015年
 
 * Ziqiang Yu, Xiaohui Yu, Yang Liu, Wenzhu Li, Jian Pei.  Mining Frequent Co-occurrence Patterns across Multiple Data Streams. To appear in 18th International Conference on Extending Database Technology(EDBT 2015), March 23-27, 2015.
+* Meng Chen, Yang Liu, Xiaohui Yu:Predicting Next Locations with Object Clustering and Trajectory Clustering. PAKDD (2) 2015: 344-356
+* Lei Lv, Meng Chen, Yang Liu, Xiaohui Yu:A Plane Moving Average Algorithm for Short-Term Traffic Flow Prediction. PAKDD (2) 2015: 357-369
+* Jing Zhou, Yang Liu, Ziqiang Yu:Improving the Effectiveness of Keyword Search in Databases Using Query Logs. WAIM 2015: 193-206
 
 ###2014年
 
