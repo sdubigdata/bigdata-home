@@ -12,7 +12,7 @@ index:  2
 {% for post in paginator.posts %}
  <div class="content">
  <ul class="post-list">
-	{% if post.categories == 'news' %}
+	{% if post.categories != empty %}
     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%Y-%m-%d" }} {{post.title}}</a></li>
 	{% endif %}
   </ul>
