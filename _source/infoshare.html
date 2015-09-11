@@ -1,0 +1,32 @@
+---
+layout: page
+title: 共享信息
+permalink: /infoshare/
+link: /infoshare/
+index: 6
+---
+
+
+<h2>信息</h2>
+
+{% for post in paginator.posts %}
+ <div class="content">
+ <ul class="post-list">
+	{% if post.categories == empty %}
+    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%Y-%m-%d" }} {{post.title}}</a></li>
+	{% endif %}
+  </ul>
+</div>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">上一页</a>
+  {% endif %}
+  <span class="page_number ">当前第{{ paginator.page }}页，共{{ paginator.total_pages }}页</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">下一页</a>
+  {% endif %}
+</div>
+
