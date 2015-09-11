@@ -12,7 +12,7 @@ index:  2
 {% for post in paginator.posts %}
  <div class="content">
  <ul class="post-list">
- {% if post.categories == ‘news’%}
+	{% if post.categories == 'news' %}
     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%Y-%m-%d" }} {{post.title}}</a></li>
 	{% endif %}
   </ul>
@@ -21,7 +21,7 @@ index:  2
 
 <!-- Pagination links -->
 <div class="pagination">
-  
+  {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">上一页</a>
   {% endif %}
   <span class="page_number ">当前第{{ paginator.page }}页，共{{ paginator.total_pages }}页</span>
