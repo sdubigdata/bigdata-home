@@ -1,17 +1,17 @@
 ---
 layout: default
-title: 学科组动态
-link: /news/
-index:  2
+title: 共享信息
+link: /infoshare/
+index: 6
 ---
 
-<!-- This loops through the paginated posts -->
 
-    <h2>动态</h2>
-{% for post in  site.categories.news %}
+<h2>信息</h2>
+
+{% for post in site.categories.info %}
  <div class="content">
  <ul class="post-list">
     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%Y-%m-%d" }} {{post.title}}</a></li>
- </ul>
+  </ul>
 </div>
 {% endfor %}
