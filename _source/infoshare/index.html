@@ -8,12 +8,10 @@ index: 6
 
 <h2>信息</h2>
 
-{% for post in site.posts %}
+{% for post in site.categories.info %}
  <div class="content">
  <ul class="post-list">
-	{% if post.categories == empty %}
     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%Y-%m-%d" }} {{post.title}}</a></li>
-	{% endif %}
   </ul>
 </div>
 {% endfor %}
