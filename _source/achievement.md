@@ -8,8 +8,22 @@ index: 4
 
 ##成果
 
+###2016年
+
+* CI-Rank: Collective Importance Ranking for Keyword Search in Databases. Xiaohui Yu, Ziqiang Yu, Yang Liu, Huxia Shi. Accepted for publication in Information Sciences
+* Chong Yang, Xiaohui Yu, Yang Liu, Yanping Nie, Yuanhong Wang: Collaborative filtering with weighted opinion aspects. Neurocomputing 210: 185-196 (2016)
+* Meng Chen, Xiaohui Yu, Yang Liu: Mining Object Similarity for Predicting Next Locations. J. Comput. Sci. Technol. 31(4): 649-660 (2016)
+* Lei Lv, Yang Liu, Xiaohui Yu: Spica: A Path Bundling Model for Rational Route Recommendation. APWeb (2) 2016: 85-97
+* Donghai Yu, Yang Liu, Xiaohui Yu: A Data Grouping CNN Algorithm for Short-Term Traffic Flow Forecasting. APWeb (1) 2016: 92-103
+* Xingcan Cui, Xiaohui Yu, De Guo: Repair Singleton IDs on the Fly. APWeb (2) 2016: 214-226
+* Linlin Zhang, Meng Chen, Xiaohui Yu, Yang Liu: CoDS: Co-training with Domain Similarity for Cross-Domain Image Sentiment Classification. APWeb (1) 2016: 480-492
+* Zhaoyang Lv, Yuanyuan Liu, Xiaohui Yu: KEIPD: Knowledge Extraction and Inference System for Personal Documents. APWeb (2) 2016: 592-595
+* Ziqiang Yu, Xiaohui Yu, Yuehui Chen, Kun Ma: Distributed Top-k Keyword Search over Very Large Databases with MapReduce. BigData Congress 2016: 349-352
+
 ###2015年
 
+* Meng Chen, Xiaohui Yu, Yang Liu: Mining moving patterns for predicting next location. Inf. Syst. 54: 156-168 (2015)
+* Ziqiang Yu, Yang Liu, Xiaohui Yu, Ken Q. Pu: Scalable Distributed Processing of K Nearest Neighbor Queries over Moving Objects. IEEE Trans. Knowl. Data Eng. 27(5): 1383-1396 (2015)
 * Min Yang, Yang Liu, Ziqiang Yu:Distributed Grid-Based K Nearest Neighbour Query Processing Over Moving Objects. WAIM 2015: 350-361
 * Jing Zhou, Yang Liu, Ziqiang Yu:Improving the Effectiveness of Keyword Search in Databases Using Query Logs. WAIM 2015: 193-206
 * Meng Chen, Yang Liu, Xiaohui Yu:Predicting Next Locations with Object Clustering and Trajectory Clustering. PAKDD (2) 2015: 344-356
