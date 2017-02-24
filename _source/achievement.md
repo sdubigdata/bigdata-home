@@ -10,7 +10,7 @@ index: 4
 
 ###2016年
 
-* CI-Rank: Collective Importance Ranking for Keyword Search in Databases. Xiaohui Yu, Ziqiang Yu, Yang Liu, Huxia Shi. Accepted for publication in Information Sciences
+* Xiaohui Yu, Ziqiang Yu, Yang Liu, Huxia Shi: CI-Rank: Collective importance ranking for keyword search in databases. Information Sciences. 384: 1-20 (2017)
 * Chong Yang, Xiaohui Yu, Yang Liu, Yanping Nie, Yuanhong Wang: Collaborative filtering with weighted opinion aspects. Neurocomputing 210: 185-196 (2016)
 * Meng Chen, Xiaohui Yu, Yang Liu: Mining Object Similarity for Predicting Next Locations. J. Comput. Sci. Technol. 31(4): 649-660 (2016)
 * Lei Lv, Yang Liu, Xiaohui Yu: Spica: A Path Bundling Model for Rational Route Recommendation. APWeb (2) 2016: 85-97
@@ -28,7 +28,7 @@ index: 4
 * Jing Zhou, Yang Liu, Ziqiang Yu:Improving the Effectiveness of Keyword Search in Databases Using Query Logs. WAIM 2015: 193-206
 * Meng Chen, Yang Liu, Xiaohui Yu:Predicting Next Locations with Object Clustering and Trajectory Clustering. PAKDD (2) 2015: 344-356
 * Lei Lv, Meng Chen, Yang Liu, Xiaohui Yu:A Plane Moving Average Algorithm for Short-Term Traffic Flow Prediction. PAKDD (2) 2015: 357-369
-* Ziqiang Yu, Xiaohui Yu, Yang Liu, Wenzhu Li, Jian Pei.  Mining Frequent Co-occurrence Patterns across Multiple Data Streams. To appear in 18th International Conference on Extending Database Technology(EDBT 2015), March 23-27, 2015.
+* Ziqiang Yu, Xiaohui Yu, Yang Liu, Wenzhu Li, Jian Pei: Mining Frequent Co-occurrence Patterns across Multiple Data Streams. EDBT 2015: 73-84
 
 ###2014年
 
@@ -36,7 +36,8 @@ index: 4
 * Chong Yang, Xiaohui Yu, Yang Liu. Continuous KNN Join Processing for Real-time Recommendation. To appear in IEEE International Conference on Data Mining (ICDM), December 14-17, 2014. 
 * YanPing Nie, Yang Liu, Xiaohui Yu. Weighted aspect-based collaborative filtering. SIGIR 2014: 1071-1074
 * Meng Chen, Yang Liu, Xiaohui Yu. NLPMM: A Next Location Predictor with Markov Modeling. PAKDD (2) 2014: 186-197
-* Mehdi Kargar, Aijun An, Xiaohui Yu. Efficient Duplication Free and Minimal Keyword Search in Graphs. IEEE Trans. Knowl. Data Eng. 26(7): 1657-1669 (2014)* Yang Liu, Xiaohui Yu, Bing Liu, Zhongshuai Chen. Sentence-Level Sentiment Analysis in the Presence of Modalities. CICLing (2) 2014: 1-16
+* Mehdi Kargar, Aijun An, Xiaohui Yu. Efficient Duplication Free and Minimal Keyword Search in Graphs. IEEE Trans. Knowl. Data Eng. 26(7): 1657-1669 (2014)
+* Yang Liu, Xiaohui Yu, Bing Liu, Zhongshuai Chen. Sentence-Level Sentiment Analysis in the Presence of Modalities. CICLing (2) 2014: 1-16
 * Mehdi Kargar, Aijun An, Nick Cercone, Parke Godfrey, Jaroslaw Szlichta, Xiaohui Yu. MeanKS: meaningful keyword search in relational databases with complex schema. SIGMOD 2014: 905-908
 
 ###2013年
@@ -59,7 +60,7 @@ index: 4
 
 ###2011年
 
-* Jiaran Zhang, Xiaohui Yu, You Li, and Liwei Lin. "HadoopRsync", In Proceedings of International Conference on Cloud and Service Computing, 2011, pp.166-173.
+* Jiaran Zhang, Xiaohui Yu, You Li, and Liwei Lin. HadoopRsync. In Proceedings of International Conference on Cloud and Service Computing, 2011, pp.166-173.
 * Lei Gao, Xiaohui Yu, Yang Liu.  Keyword Query Cleaning with Query Logs. In WAIM 2011, 31-42.
 * Ziqiang Yu, Xiaohui Yu, Yang Liu. Cascading top-k keyword search over relational databases. In Proceedings of the ACM 14th international workshop on Data Warehousing and OLAP(DOLAP 2011), 95-100
 * Yang Liu, Xiaohui Yu, Jimmy Xiangji Huang, Aijun An. Combining integrated sampling with SVM ensembles for learning from imbalanced datasets. Inf. Process. Manage. 47(4): 617-631 (2011)
