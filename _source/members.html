@@ -8,6 +8,13 @@ index: 3
 
 <h2>成员</h2>
 
+<!-- jQuery library (served from Google) -->
+<script src="{{site.url}}/js/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="{{site.url}}/js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="{{site.url}}/js/jquery.bxslider.css" rel="stylesheet" />
+
 <div>
       <div style="float:left;padding-right:15px;margin-top:10px;"><a href="{{site.url}}/imgs/yu_full.jpg" target="_blank"><img src="{{site.url}}/imgs/yu_brev.jpg" style="width:300px;"/></a></div>
       <p>
@@ -23,7 +30,12 @@ index: 3
     </div>
     <div class="clear"></div>
     <hr/>
-    <div style="text-align:center;margin-top:10px;"><a href="{{site.url}}/imgs/staff_full_2.jpg" target="_blank"><img src="{{site.url}}/imgs/staff_brev_2.jpg" style="width:920px;"/></a></div>    
+    <!---div style="text-align:center;margin-top:10px;"><a href="{{site.url}}/imgs/staff_full_2.jpg" target="_blank"><img src="{{site.url}}/imgs/staff_brev_2.jpg" style="width:920px;"/></a></div-->
+<ul class="bxslider">
+  <li><img src="{{site.url}}/imgs/staff_brev.jpeg" /></li>
+  <li><img src="{{site.url}}/imgs/staff_brev_2.jpg" /></li>
+</ul>
+
       <div>
           <h3 class="txt_title">在校博士研究生</h3>
           <div>
@@ -50,3 +62,8 @@ index: 3
 		  <tr><td></td>　<td>李文竹（招商银行信用卡中心）</td><td>李　娟（海信）</td>　<td>邹　婷（联通）</td></tr>
           </table>              
       </div>
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
